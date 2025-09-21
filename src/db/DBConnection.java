@@ -3,7 +3,7 @@ import java.sql.*;
 public class DBConnection {
     private static final String url = "jdbc:mysql://localhost:3306/digitalnotes";
     private static final String user = "root";
-    private static final String password = "QaCk$5891";
+    private static final String password = <your-password here>;
 
     public static Connection getDBConnection() throws ClassNotFoundException, SQLException{
         try {
