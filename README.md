@@ -17,7 +17,7 @@ Before you begin, ensure you have the following installed:
 
 - Java Development Kit (JDK) 8 or higher
 - MySQL Server
-- An IDE like IntelliJ IDEA or Eclipse
+- An IDE like IntelliJ IDEA or VS Code
 - MySQL Connector/J library
 
 ## Setup and Installation
@@ -27,7 +27,7 @@ Follow these steps to get the application running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/anshucodes404/digitalNotes-App
 ```
 
 Or simply download and extract the source code ZIP file.
@@ -77,7 +77,7 @@ INSERT INTO tags (tag_name) VALUES ('Personal'), ('Work'), ('Urgent'), ('Ideas')
 1.  Download the **MySQL Connector/J** JAR file from the official MySQL website
 2.  Add the JAR file to your project's build path.
     - **For IntelliJ IDEA:** Add the sql-connector.jar file to external libraries
-    - **For VS Code:** Create a `lib` folder in the root directory and place the sql-connector.jar file there
+    - **For VS Code:** It has already been done if not present then, Create a `lib` folder in the root directory and place the sql-connector.jar file there
 
 ### 5. Build and Run
 
