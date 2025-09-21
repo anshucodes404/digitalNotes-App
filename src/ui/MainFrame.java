@@ -33,6 +33,7 @@ public class MainFrame extends JFrame {
         addBtn.setFont(buttonFont);
         viewBtn.setFont(buttonFont);
         exportBtn.setFont(buttonFont);
+        howToUse.setFont(buttonFont);
 
         buttonPanel.add(addBtn);
         buttonPanel.add(viewBtn);
